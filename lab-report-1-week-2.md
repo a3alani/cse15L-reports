@@ -70,8 +70,9 @@ Now you are going to set up SSH Key. This will allow you to login using keys ins
 2) Enter:
 > /Users/<user-name>/.ssh/id_rsa
 
- Note) <u> Change "user-name" with your own. </u>
- Tip) <u> Use the image as a reference </u>
+ Note) *Change "user-name" with your own.*
+ 
+ Tip) *Use the image as a reference*
 
 3) Enter passphrase (empty for no passphrase):
 
