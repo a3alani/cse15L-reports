@@ -68,9 +68,10 @@ Now you are going to set up SSH Key. This will allow you to login using keys ins
 1) On your computer, type ssh-keygen in the terminal 
 
 2) Enter:
-> /Users/<user-name>/.ssh/id_rsa
+> /Users/user-name/.ssh/id_rsa
 
  Note) *Change "user-name" with your own.*
+ 
  
  Tip) *Use the image as a reference*
 
