@@ -76,8 +76,6 @@ Now you are going to set up SSH Key. This will allow you to login using keys ins
  Tip) *Use the image as a reference*
 
 3) Enter passphrase (empty for no passphrase)
-
-<img width="1440" alt="Screen Shot 2022-03-31 at 7 02 12 PM" src="https://user-images.githubusercontent.com/103146838/162670276-aca18169-46a8-4cb2-a981-dc664320390a.png"
     
 
 4) Now if your try to login with ieng with SSH, you should be able to without entering your password!
