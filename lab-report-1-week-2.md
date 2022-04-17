@@ -24,7 +24,7 @@ Second you are going to connect to a remote system using SSH. If you are using a
 Note) <u>replace the "zz" with your course-specifc user.</u>
 
 3) Enter yes when asked: 
-`Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+> Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 4) Enter your password and you should be logged in!
 
@@ -75,7 +75,7 @@ Now you are going to set up SSH Key. This will allow you to login using keys ins
  
  Tip) *Use the image as a reference*
 
-3) Enter passphrase (empty for no passphrase):
+3) Enter passphrase (empty for no passphrase)
 
 <img width="1440" alt="Screen Shot 2022-03-31 at 7 02 12 PM" src="https://user-images.githubusercontent.com/103146838/162670276-aca18169-46a8-4cb2-a981-dc664320390a.png"
     
@@ -95,7 +95,7 @@ Note) This command will login in a list the home directory on the remote server 
 
 2) You can run multiple commands using semicolon ;
 
-I.e) cp WhereAmI.java OtherMain.java; javac OtherMain.java;
+I.e) `cp WhereAmI.java OtherMain.java; javac OtherMain.java;`
  
 <img width="510" alt="Screen Shot 2022-03-31 at 7 16 23 PM" src="https://user-images.githubusercontent.com/103146838/162670524-18e83874-eb6c-43aa-9281-21c659084f7e.png">
 
