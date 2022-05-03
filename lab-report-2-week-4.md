@@ -12,6 +12,8 @@ Notes)
 
 1) First failure inducing test:
 
+https://github.com/a3alani/markdown-parser/blob/main/test2.md
+
 I added double brackets at the end of the link url
 This caused MarkdownParse.java to go in an infinite loop when running. 
 
@@ -24,6 +26,8 @@ This caused MarkdownParse.java to go in an infinite loop when running.
 
 2) Second failure inducing test:
 
+https://github.com/a3alani/markdown-parser/blob/main/test3.md
+
 I added curly brackets around the link url instead of parathesis. This caused MarkdownParse.java to throw an indexoutofbound exception.
 
 <img width="602" alt="Screen Shot 2022-05-02 at 7 31 43 PM" src="https://user-images.githubusercontent.com/103146838/166396847-73db2bc8-2a66-4f72-a2cf-20ad2df56f38.png">
@@ -34,6 +38,8 @@ I added curly brackets around the link url instead of parathesis. This caused Ma
 ---
 
 3) Third failure inducing test:
+
+https://github.com/a3alani/markdown-parser/blob/main/test4.md
 
 I did not add a parathesis before the link url and only after which caused the output of the wrong output.
 
