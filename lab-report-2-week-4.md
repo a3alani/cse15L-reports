@@ -65,7 +65,7 @@ I did not add a parenthesis at the end of the url link
 
 General Definition:
 
-` A bug is a flaw in the computer system that may have zero or many symptoms. While a symptom is a faulty program behavior. As for the failure inducing input it causes the bug to excute and symptoms to appear.`
+`A bug is a flaw in the computer system that may have zero or many symptoms. While a symptom is a faulty program behavior. As for the failure inducing input it causes the bug to excute and symptoms to appear.`
 
 * For the first test, the failure inducing input was adding the second parathesis at the end of the url link. That caused the bug to execute and the  symptom to appear as the program went into an infnite loop.
 
