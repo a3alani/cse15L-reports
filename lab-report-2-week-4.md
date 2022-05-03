@@ -6,8 +6,6 @@
 Notes) 
 > The following screenshot includes the failure indcuing tests inputs followed by screenshots of the test file and terminal output
 
->I am presenting my failure inducing input in the screenshots instead of linkd as I faced difficulties attempting that
-
 ---
 <img width="1440" alt="Screen Shot 2022-05-02 at 11 36 55 PM" src="https://user-images.githubusercontent.com/103146838/166413265-bfc1337d-9e18-42b1-987d-785bf36722c5.png">
 
