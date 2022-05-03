@@ -6,7 +6,8 @@
 Notes) 
 > The following screenshot includes the failure indcuing tests inputs followed by screenshots of the test file and terminal output
 
-> I am presenting my failure inducing input in the screenshots instead of linkd as I faced difficulties attempting that
+>I am presenting my failure inducing input in the screenshots instead of linkd as I faced difficulties attempting that
+
 ---
 
 1) First failure inducing test:
