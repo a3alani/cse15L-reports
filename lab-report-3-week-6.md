@@ -2,14 +2,21 @@
 
 1) __Streamlining ssh Configuration__
 
-Show your .ssh/config file, and how you edited it (with VScode,
+* Show your .ssh/config file, and how you edited it (with VScode,
 another program, etc)
 
-Show the ssh command logging you into your account using just
+<img width="470" alt="Screen Shot 2022-05-09 at 12 31 22 PM" src="https://user-images.githubusercontent.com/103146838/167484007-638c03d9-6128-4773-a5d0-470343ae1c79.png">
+
+
+* Show the ssh command logging you into your account using just
 the alias you chose.
 
-Show an scp command copying a file to your account using just the
+<img width="489" alt="Screen Shot 2022-05-09 at 12 31 54 PM" src="https://user-images.githubusercontent.com/103146838/167484018-02b3736a-5a7c-4fd6-adb3-0984f6881a9c.png">
+
+* Show an scp command copying a file to your account using just the
 alias you chose.
+
+
 
 
 2) __Setup Github Access from ieng6__
