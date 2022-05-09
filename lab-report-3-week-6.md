@@ -21,16 +21,23 @@ alias you chose.
 
 2) __Setup Github Access from ieng6__
 
-Show where the public key you made is stored on Github and in
+* Show where the public key you made is stored on Github and in
 your user account (screenshot).
 
-Show where the private key you made is stored on your user
+<img width="472" alt="Screen Shot 2022-05-09 at 1 10 16 PM" src="https://user-images.githubusercontent.com/103146838/167489547-44e288f4-8633-413f-9643-47b0e2a2ccb1.png">
+
+* Show where the private key you made is stored on your user
 account (but not its contents) as a screenshot.
 
-Show running git commands to commit and push a change to
+<img width="1440" alt="Screen Shot 2022-05-09 at 12 51 51 PM" src="https://user-images.githubusercontent.com/103146838/167489649-5b6d1493-5a67-4934-8561-ea2e438b8840.png">
+
+<img width="805" alt="Screen Shot 2022-05-09 at 1 16 19 PM" src="https://user-images.githubusercontent.com/103146838/167490433-02c41225-3e43-46c1-8371-678b3dd550cd.png">
+
+
+* Show running git commands to commit and push a change to
 Github while logged into your ieng6 account.
 
-Show a link for the resulting commit.
+* Show a link for the resulting commit.
 
 3) __Copy whole directories with scp -r__
 
