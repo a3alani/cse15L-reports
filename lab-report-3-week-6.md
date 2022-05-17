@@ -70,7 +70,10 @@ account.
 Show logging into your ieng6 account after doing this and compiling
 and running the tests for your repository.
 
-<img width="905" alt="Screen Shot 2022-05-16 at 8 02 18 PM" src="https://user-images.githubusercontent.com/103146838/168721124-180059f9-9b3d-48c4-9d8f-9080c339e034.png">
+<img width="905" alt="Screen Shot 2022-05-16 at 8 02 18 PM" src="https://user-images.githubusercontent.com/103146838/168721449-a36a3741-d28c-45c1-b9ba-c53d759ee88d.png">
+
+<img width="1116" alt="Screen Shot 2022-05-16 at 8 14 41 PM" src="https://user-images.githubusercontent.com/103146838/168721455-6d3d6465-42fb-41b6-b1a9-a71736a79da3.png">
+
 
 
 Show (like in the last step of the first lab) combining scp, ;, and
