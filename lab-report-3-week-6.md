@@ -18,6 +18,8 @@ alias you chose.
 
 <img width="472" alt="Screen Shot 2022-05-09 at 1 10 16 PM" src="https://user-images.githubusercontent.com/103146838/167489547-44e288f4-8633-413f-9643-47b0e2a2ccb1.png">
 
+<img width="880" alt="Screen Shot 2022-05-16 at 6 58 11 PM" src="https://user-images.githubusercontent.com/103146838/168712915-10f45918-9b64-420f-8991-30b79eb46930.png">
+
 
 2) __Setup Github Access from ieng6__
 
