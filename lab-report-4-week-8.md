@@ -1,10 +1,5 @@
 # Lab Report 4
 
-* My Implementation of MarkdownParse
-
-* Implementation reviewed of MarkdownParse
-
-
 1) A link to your markdown-parse repository and a link to the one you reviewed in week 7:
 
 * Mine: https://github.com/a3alani/markdown-parser.git
@@ -12,6 +7,29 @@
 
 2) For each test above:
 - Decide on what it should produce (i.e., expected output) by using either VScode preview or the CommonMark demo site
+* Expected:
+* Snippet 1) 
+[a link](url.com)
+another link` `
+cod[e
+code]
+
+* Snippet 2) 
+* [a nested link](b.com)
+* a nested parenthesized url
+* some escaped [ brackets ]
+
+Snippet 3)
+* [this title text is really long and takes up more than one line
+* and has some line breaks]( https://www.twitter.com )
+* this title text is really long and takes up more than one line
+* [this link doesn't have a closing parenthesis](github.com
+* And there's still some more text after that.
+* [this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
+* )
+* And then there's more text
+
+
 - Showing the code in MarkdownParseTest.java for how you turned it into a test
 - For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
 - For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
