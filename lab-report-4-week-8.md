@@ -9,46 +9,43 @@
 
 2) For each test above:
 - Decide on what it should produce (i.e., expected output) by using either VScode preview or the CommonMark demo site
-* Expected:
 
 Snippet 1)
-* [a link](url.com)
-* another link` `
-* cod[e
-* code]
+* Expected:
+["`google.com, "google.com", "ucsd.edu"]
 
 ---
 
 Snippet 2) 
-* [a nested link](b.com)
-* a nested parenthesized url
-* some escaped [ brackets ]
+* Expected:
+["a.com", "a.com(())", "example.com"]
 
 ---
 
 Snippet 3)
-* [this title text is really long and takes up more than one line
-* and has some line breaks]( https://www.twitter.com )
-* this title text is really long and takes up more than one line
-* [this link doesn't have a closing parenthesis](github.com
-* And there's still some more text after that.
-* [this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
-* )
-* And then there's more text
+* Expected
+["https://www.twitter.com", "https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule", "https://cse.ucsd.edu/"]
 
 ---
 
 - Showing the code in MarkdownParseTest.java for how you turned it into a test
 
-<img width="476" alt="Screen Shot 2022-05-23 at 1 57 53 PM" src="https://user-images.githubusercontent.com/103146838/169905751-c7b80447-942a-40e0-bebf-24521227bde5.png">
-
-<img width="450" alt="Screen Shot 2022-05-23 at 2 02 19 PM" src="https://user-images.githubusercontent.com/103146838/169905756-f8418f3d-3538-4306-86e8-a9cb2a9758de.png">
+<img width="610" alt="Screen Shot 2022-05-30 at 1 06 08 PM" src="https://user-images.githubusercontent.com/103146838/171054270-c751def6-0368-4d37-83b6-6ac71b15e333.png">
 
 
 - For your implementation, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
 
 
+<img width="930" alt="Screen Shot 2022-05-30 at 1 15 32 PM" src="https://user-images.githubusercontent.com/103146838/171054961-f1c8358a-412d-4387-ae4c-cf23ab811b2f.png">
+
+When I ran the program it went into an infinite loop. It did not pass
+
 - For the implementation you reviewed in Week 7, the corresponding output when running the tests; if it passed, say so. If it didn’t pass, show the specific part of the JUnit output that shows the test failure.
+
+<img width="1440" alt="Screen Shot 2022-05-30 at 1 19 12 PM" src="https://user-images.githubusercontent.com/103146838/171055326-628f2709-8cd5-4aa1-b243-d43608c2fe46.png">
+
+The screenshot is showing an IO excpetion error, I do not know why this error is showing in the implementation I reviewd. However it is also expected not to pass the tests.
+
 
 3) Answer the following questions with 2-3 sentences each:
 
@@ -59,17 +56,10 @@ Yes, the change would be to start from the index of the sqaure bracket which wil
 
 - Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-No, I do not think there will be a code chnage < 10 lines that will fix the program. It will require a more involved chnage
+I think the test will run and pass on the expected output, but in order to include other link in the nested link it will require a code change less than 10 lines. Like adding a condition that checks for nested links using matching open and closed parathenthesis and square brackets.
 
 
 - Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-No, I do not think there will be a code chnage < 10 lines that will fix the program. It will require a more involved chnage
+I think the test will pass on the expected output which is whats highlighted in blue. However no, I do not think there will be a code chnage < 10 lines that will fix the program to include all links because there will be many conditions to consider like the spaces and separate lines between the links. 
 
-
-- If your code already works on some/all test cases, include an explanation of what were the code changes that allowed the tests to pass.
-
-
-
-4) If you’re using a direct clone to ieng6, you might find it useful to give an extra argument to git clone that specifies which directory to clone into, for example:
-$ git clone https://github.com/ucsd-cse15l-sp22/markdown-parse markdown-parse-target-directory
