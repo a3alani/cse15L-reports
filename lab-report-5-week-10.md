@@ -1,16 +1,49 @@
 # Lab Report 5
 
-* The tests that caused a error when I ran make Test were:
+* I used: 
+
+> $ bash script.sh > results.txt
 
 
-Test 1:
+* Them vimdiff on results.txt
 
-https://github.com/nidhidhamnani/markdown-parser/blob/main/test-missing-paren-plus-test-file2.md
+---
 
+Test 1: 
+
+[194.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/194.md)
+
+<img width="782" alt="Screen Shot 2022-06-09 at 1 50 49 PM" src="https://user-images.githubusercontent.com/103146838/172942915-ef8da18d-77d5-4e34-b494-1d335dc7fd6e.png">
+
+Expected from results.text:
+
+> []
+
+Actual:
+
+> [url]
+
+Solution:
+
+
+
+---
 
 Test 2:
 
-https://github.com/nidhidhamnani/markdown-parser/blob/main/test-parens-inside-link.md
+[201.md](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/201.md)
+
+<img width="764" alt="Screen Shot 2022-06-09 at 1 51 13 PM" src="https://user-images.githubusercontent.com/103146838/172942958-f444fc02-aa01-4cf0-a91b-b4867673366e.png">
+
+Expected from results.txt:
+
+> []
+
+Actual:
+
+> [baz]
+
+Solution:
 
 
 * In the implementation, I reviewed the expected output was different than the actual
