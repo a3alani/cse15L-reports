@@ -5,7 +5,7 @@
 > $ bash script.sh > results.txt
 
 
-* Them vimdiff on results.txt
+* Then vimdiff on results.txt
 
 ---
 
@@ -25,6 +25,14 @@ Actual:
 
 Solution:
 
+My markdown implementation did not consider this a valid link but the given markdown file did display it as a link.
+
+> <p><a href="my_(url)" title="title (with parens)">Foo*bar]</a></p>
+
+url should not be displayed as a valid link
+
+First,the program should look for the opening & closing "[" "]"
+Next, check if the content inside the "(" ")" is a valid link
 
 
 ---
@@ -45,18 +53,25 @@ Actual:
 
 Solution:
 
+My markdown implementation considered this a valid link and the given markdown file did also display it as a link.
 
-* In the implementation, I reviewed the expected output was different than the actual
-* The preview also presents a different output than expected
+> <p>[foo]: <bar>(baz)</p>
+> <p>[foo]</p>
+
+baz should not be displayed as a valid link.
+
+The program should not only check for "[" & "]" but also "](" so that the syntax is valid for a link.
+
+
+---
+---
+
+Output for running main tests on both my implemenation and given markdownparser:
 
 <img width="913" alt="Screen Shot 2022-06-06 at 11 44 50 PM" src="https://user-images.githubusercontent.com/103146838/172313748-27300668-fe30-4b49-aef8-1715ff0cca41.png">
 
 <img width="1440" alt="Screen Shot 2022-06-06 at 11 46 17 PM" src="https://user-images.githubusercontent.com/103146838/172313955-93b3b919-3889-456d-82cc-b86d22b8ca32.png">
 
 <img width="1440" alt="Screen Shot 2022-06-06 at 11 46 33 PM" src="https://user-images.githubusercontent.com/103146838/172313968-08403fce-0c69-4a4b-8d33-c5836669dc4e.png">
-
-
-* For my MarkdownParse implementation:
-* 1 passed while the other failed
 
 <img width="1440" alt="Screen Shot 2022-06-06 at 11 50 58 PM" src="https://user-images.githubusercontent.com/103146838/172314814-d95f6915-a8c9-49a3-8aad-ae53d58b13f7.png">
